@@ -9,7 +9,7 @@ body{
     margin: 0 ;
     padding: 0;
 }
-.main-container{
+.holder{
     width: 1350px;
     margin: 0 auto;
 }
@@ -23,7 +23,7 @@ body{
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
     display: inline-block;
-    /* transition: 0.5 ease; */
+    transition: 0.3s;
     
 }
 .navbar-link:hover{
@@ -31,6 +31,11 @@ body{
     border-bottom: 1px solid white;
     transform: scale(1.5);   
    
+}
+.active{
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid white;
+    transform: scale(1.5);  
 }
 .logo{
  color: rgba(255, 255, 255, 1);
@@ -207,4 +212,79 @@ font-weight: 400;
 font-size: 16px;
 line-height: 167.3%;
 color: rgba(253, 253, 253, 0.78);
+}
+
+/* PROJECTS */
+
+.projects-title{
+margin-top: 112px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 182.3%;
+color: #2F2D52;
+text-align: center;
+
+}
+.projects-subtitle{
+    margin-bottom: 114px;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 103.6%;
+text-align: center;
+color: #177165;
+}
+
+/* LANDSCAPING */
+
+.landscaping{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 100px;
+}
+.landscaping-txt,.london-garden-txt,.green-perfection-txt{
+    margin-bottom: 20px;
+    max-width: 518px;
+}
+.landscaping-title,.green-perfection-title,.london-garden-title{
+    margin-bottom:30px ;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 103.6%;
+color: #2F2D52;
+}
+.green-perfection-title,.london-garden-title{
+    margin-top: 63px;
+}
+.landscaping-list,.london-garden-list,.green-perfection-list{
+    list-style: none;
+    padding: 0;
+
+}
+.landscaping-li,.green-perfection-li,.london-garden-li{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 167.3%;
+color: #2F2D52;
+
+
+}
+.list-item{
+    padding-left: 30px;
+    color: #177165;
+}
+.green-perfection{
+    margin-top: 248px;
+}
+.wrap{
+    display: flex;
+    gap: 100px;
+
 }
